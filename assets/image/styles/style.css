@@ -1,0 +1,137 @@
+:root {
+  --secondary-color: #ee9630;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "inter";
+  src: url(./../../fonts/inter.ttf) format("truetype");
+}
+.sales-header {
+  background-color: var(--secondary-color);
+  height: 81px;
+}
+.sales-header > section {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  cursor: pointer !important;
+  align-items: center;
+}
+.sales-header-title {
+  color: white;
+  font-size: 32;
+  font-family: "inter";
+}
+.sales-header button {
+  width: 196px;
+  height: 35px;
+  background-color: #eacb9e;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inter;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.sales-header-desc {
+  padding-left: 93px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.sales-header-desc span {
+  font-weight: 400;
+  margin: 0 30px;
+}
+.headers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.products-header {
+  height: 26px;
+  background-color: white;
+}
+.products-header h1 span {
+  font-weight: 400;
+  font-size: 16px;
+}
+.products-header h1 {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.Sells-header {
+  background-color: #ee9630;
+  height: 81px;
+}
+.Sells-header div {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+.Sells-header div p {
+  margin-top: 25px;
+  padding: 0 15px;
+}
+.Sells-header div input {
+  width: 549px;
+  height: 35px;
+  margin-top: 5px;
+}
+#search-button {
+  height: 35px;
+  width: 40px;
+  margin-top: 5px;
+  background-color: #0597e8;
+}
+.Accessories-header {
+  background-color: #226c96;
+  height: 60px;
+  width: 1350px;
+}
+.Accessories-header h1 {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: white;
+}
+.search-result {
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 0 200px;
+  margin-top: 13px;
+  display: flex;
+}
+.search-result img {
+  padding-left: 10px;
+}
+#auth-popup {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  width: 413px;
+  height: 456px;
+  background-color: white;
+  padding: 20px;
+}
+#close-btn {
+  display: flex;
+  justify-content: space-between;
+}
